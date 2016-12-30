@@ -6,3 +6,7 @@
 # For example, 
 # if I call `sum(2, 5)`, it should return 7.
 # if I call `sum(3, 2)`, it should return 5.
+
+def sum(a, b)
+	a + b
+end

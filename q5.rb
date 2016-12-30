@@ -4,3 +4,5 @@
 # atoyoT
 # ihsibustiM
 # adnoH
+
+['Toyota', 'Mitsubishi', 'Honda'].each {|w| puts w.reverse}

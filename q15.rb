@@ -26,10 +26,21 @@ music_library = [
     ],   
     ["Beyonce",     
         ["4",       
-            ["1 + 1", "Countdown"]
+            ["1 + 1", "Countdown"]     
         ],     
         ["Lemonade",       
             ["Pray you catch me", "You can taste the dishonesty"]     
         ]   
     ] 
 ]
+
+music_library.each do |artist|
+    puts "Artist: #{artist[0]}"
+    artist[1..2].each do |album|
+        puts "Album: #{album[0]}"
+        album[1..2].each do |song|
+            puts "Song Name: #{song[0]}"
+            puts "#{song[1]}"
+        end
+    end
+end
