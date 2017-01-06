@@ -18,3 +18,11 @@
 # 100
 # A+
 # Class Representative
+
+november_intake_english_students_grade = [
+	["Tom", 80, "A"],
+	["Adam", 66, "B"],
+	["Kristal", 100, "A+", "Class Representative"]
+]
+
+november_intake_english_students_grade.each { |a| puts a }w

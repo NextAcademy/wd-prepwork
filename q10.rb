@@ -5,3 +5,10 @@
 # 2) Create a "while" loop to continuously prompt user for the current room temperature. 
 # - If the temperature is above 20 degree celsius print "Air Conditioner is on" and keep on looping and continuously prompt user for the current room temperature.
 # -Else print "Air Conditioner is off" and terminate the "while" loop
+
+room_temperature = gets.chomp!.to_i
+while room_temperature > 20 do
+	puts "AC is on"
+	room_temperature = gets.chomp!.to_i	
+end
+puts "AC is off"
